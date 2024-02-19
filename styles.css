@@ -1,0 +1,21 @@
+.page-content {
+    padding: 20px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.nav-link {
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #fff !important;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

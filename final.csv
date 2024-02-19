@@ -1,4 +1,4 @@
-Time,acc,acceleration,access,lat,long,id,status,r_status
+Time,Speed,Acceleration,Distance,Latitude,Longitude,Camel ID,Racing Status,r_status
 00:00:00.011,4.04,1.13,1.02,25.1479207,56.3438335,C2,RACING,OFF
 00:00:01.000,6.54,0.7,1.74,25.1479124,56.3438377,C2,RACING,OFF
 00:00:02.001,4.3,-0.62,2.7,25.1478975,56.3438429,C2,RACING,OFF
