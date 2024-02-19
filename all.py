@@ -115,6 +115,7 @@ def display_page(pathname):
                             vertical_spacing=0.1, subplot_titles=[f'Time vs. {param}' for param in data.columns[1:]])
 
         # Custom color palette
+        # colors = px.colors.cartodb_palette
         colors = px.colors.qualitative.Plotly
 
         # Iterate over each parameter to create a subplot for each
@@ -126,7 +127,7 @@ def display_page(pathname):
                         row=i, col=1)
 
         # Update layout for a cohesive look
-        fig.update_layout(height=400*len(data.columns[1:5]), width=1730, title_text=f"Camel 2 {data.columns[6]}",
+        fig.update_layout(height=400*len(data.columns[1:5]), width=1730, title_text=f"Camel 2 {data.columns[6][0]}",
                         title_font_size=28, template='plotly_dark',
                         hovermode='x unified')
 
