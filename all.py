@@ -103,7 +103,7 @@ def display_page(pathname):
     elif pathname == '/':
 
         # file_path = '/Users/simon/Desktop/Builds/Dashboard/final.csv'
-        file_path = '/Users/simon/Desktop/Builds/Dashboard/final.csv'
+        file_path = '/Users/simon/Desktop/Builds/Dashy/final.csv'
 
         data = pd.read_csv(file_path)
 
