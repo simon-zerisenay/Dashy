@@ -146,19 +146,7 @@ def display_page(pathname, selected_file):
             # Improve hover information
             fig.update_traces(hovertemplate='Time: %{x}<br>Value: %{y}')
 
-            # Show the plot
-            # fig.show()
-
             return dcc.Graph(figure=fig)
-        # data = pd.read_csv(file_path)
-        # data['Time'] = pd.to_datetime(data['Time'], format='%H:%M:%S.%f', errors='ignore')
-
-        # # Your existing code to create the figure based on `data`
-        # fig = make_subplots(...
-        # # More code to setup the figure
-        # )
-
-        # return dcc.Graph(figure=fig)
         else:
             return '404'
 
