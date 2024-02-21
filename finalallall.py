@@ -13,7 +13,7 @@ navbar = dbc.NavbarSimple(
         dbc.NavItem(dbc.NavLink("Dashboard", href="/")),
         dbc.NavItem(dbc.NavLink("About Us", href="/about")),
         dbc.NavItem(dbc.NavLink("Contact", href="/contact")),
-    ],
+    ], 
     brand="Fujairah Research Centre",
     brand_href="https://www.frc.ae",
     color="primary",
