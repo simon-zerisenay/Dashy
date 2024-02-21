@@ -9,7 +9,7 @@ from plotly.subplots import make_subplots
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 # Navigation bar
 navbar = dbc.NavbarSimple(
-    children=[
+    children=[ 
         dbc.NavItem(dbc.NavLink("Dashboard", href="/")),
         dbc.NavItem(dbc.NavLink("About Us", href="/about")),
         dbc.NavItem(dbc.NavLink("Contact", href="/contact")),
