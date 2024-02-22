@@ -2,7 +2,7 @@ import dash
 from dash import html, dcc, callback, Input, Output
 import dash_bootstrap_components as dbc
 import pandas as pd
-import plotly.express as px
+import plotly.express as px 
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots  
 # import base64
