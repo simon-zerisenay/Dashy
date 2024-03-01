@@ -6,7 +6,7 @@ import plotly.express as px
 file_path = '/Users/simon/Desktop/Builds/Dashboard/final.csv' 
 
 data = pd.read_csv(file_path) 
- 
+  
 # Display the first few rows of the dataframe to understand its structure
 print(data.head()) 
 
