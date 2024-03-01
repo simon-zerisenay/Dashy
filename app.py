@@ -8,7 +8,7 @@ file_path = '/Users/simon/Desktop/Builds/Dashboard/final.csv'
 data = pd.read_csv(file_path) 
  
 # Display the first few rows of the dataframe to understand its structure
-print(data.head())
+print(data.head()) 
 
 # Convert the 'Time' column to a datetime format if it's not already 
 # Assuming 'Time' is the name of your time column and it's in a recognizable time format
