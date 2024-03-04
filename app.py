@@ -13,7 +13,7 @@ print(data.head())
 # Convert the 'Time' column to a datetime format if it's not already 
 # Assuming 'Time' is the name of your time column and it's in a recognizable time format 
 data['Time'] = pd.to_datetime(data['Time'], format='%H:%M:%S.%f', errors='ignore') 
-print(data.head())
+print(data.head()) 
 # Selecting a parameter to plot against time. Replace 'Parameter1' with the actual column name.
 # For demonstration, I'll choose the second column ('0.93' from the first row) as it's numeric.
 
