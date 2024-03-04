@@ -16,7 +16,7 @@ navbar = dbc.NavbarSimple(
     ],
     brand="Fujairah Research Centre",
     brand_href="https://www.frc.ae",
-    color="primary",
+    color="primary", 
     dark=True,
     sticky="top",
 )
