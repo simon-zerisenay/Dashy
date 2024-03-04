@@ -11,7 +11,7 @@ app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 navbar = dbc.NavbarSimple(
     children=[
         dbc.NavItem(dbc.NavLink("Dashboard", href="/")),
-        dbc.NavItem(dbc.NavLink("About Us", href="/about")),
+        dbc.NavItem(dbc.NavLink("About Us", href="/about")), 
         dbc.NavItem(dbc.NavLink("Contact", href="/contact")),
     ],
     brand="Fujairah Research Centre",
